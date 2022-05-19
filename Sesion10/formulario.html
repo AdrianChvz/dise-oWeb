@@ -8,19 +8,19 @@
 </head>
 <body>
     <div id="contenedor">
-        <h2>Encuesta de cine: Nominadas al Oscar 2022</h2>
+        <h2 style="text-align: center;">Encuesta de cine: Nominadas al Oscar 2022</h2>
         <form id="formulario-1" name="formulario-1" method="post" action="data.php">
-            <fieldset id="datos-personales">
+            <fieldset id="datos-personales" style="margin-bottom: 10px;">
                 <legend>Datos Personales</legend>
                 
                 <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" id="nombre"> <br>
+                <input type="text" name="nombre" id="nombre" style="margin-bottom: 10px;"> <br>
                 
                 <label for="DNI">DNI</label>
-                <input type="text" name="dni" id="dni" maxlength="9"> <br>
+                <input type="text" name="dni" id="dni" maxlength="9" style="margin-bottom: 10px;"> <br>
 
                 <label for="edad">Edad</label>
-                <input type="text" name="edad" id="edad" size="2" maxlength="2"> <br>
+                <input type="text" name="edad" id="edad" size="2" maxlength="2" style="margin-bottom: 10px;"> <br>
 
                 <label for="sexo">Sexo</label>
                 <select name="sexo">
@@ -31,7 +31,7 @@
                 </select>
             </fieldset>
 
-            <fieldset id="mejor pelicula">
+            <fieldset id="mejor pelicula" style="margin-bottom: 10px;">
                 <legend>Mejor película</legend>
                 <input type="radio" name="pelicula" value="11"> El poder del perro<br>
                 <input type="radio" name="pelicula" value="22"> Dune <br>
@@ -39,7 +39,7 @@
 
             </fieldset>
 
-            <fieldset>
+            <fieldset id="peliculas" style="margin-bottom: 10px;">
 
                 <legend>Selecciona las películas que no hayas visto</legend>
                 <input type="checkbox" name="no-vista" value="11"> Maze Runner <br>
