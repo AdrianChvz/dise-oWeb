@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+.grid{
+    margin: 0px auto;
+    max-width: 1920px;
+    min-height: 90vh;
+    display: grid;
+    width: 95%;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 50px 1fr 100px 180px;
+    grid-template-areas: "my-header" "my-nav" "my-section" "my-aside" "my-footer";
+}  
+
+header{
+    grid-area: my-header;
+    background-color: rgb(22, 9, 212) ;
+    text-align: left; 
+    padding-right: 5px;
+}
+
+header h4{
+    float: right;
+    background-color: rgb(22, 9, 212) ;
+    margin: 10px;
+}
+
+header a:link,header a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+header div {   
+    margin: 50px;
+    padding-left: 120px;    
+}
+
+header p{
+    margin-top: 12px;
+    margin-right: 25px;
+}
+
+header img{
+    width: 110px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+nav{
+    grid-area: my-nav;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+nav a:link, nav a:visited{
+     color: white;
+}
+
+ nav ul li a{
+    text-decoration: none;    
+}
+
+nav ul li{  
+    list-style: none;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    width: 25%;   
+}
+
+nav ul li:hover{
+    background-color: rgb(182, 182, 182) ;
+}
+
+section{
+    grid-area: my-section;
+    background-color: rgb(255, 255, 255);  
+    text-align: justify;  
+    padding-top: 20px;
+}
+
+section p{
+    width: 70%;
+    padding-top: 15px;
+}
+
+section div{
+    padding: 8px;
+}
+
+section div img{
+    float: right;
+    width: 230px;
+    margin-right: 50px; 
+    margin-top: 50px; 
+    margin-left: 25px;
+}
+
+aside{
+    grid-area: my-aside;
+    background-color: rgb(22, 9, 212) ; 
+    
+}
+
+aside div{
+    background-color: rgb(22, 9, 212) ;
+    margin: 10%;
+    width: 80%;
+    padding-left: 10px;
+    padding-top: 20px;
+
+}
+
+aside div ul{
+    padding-left:50px ;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+footer{
+    grid-area: my-footer;
+    background-color: rgb(22, 9, 212) ;
+
+}
+
+footer div{
+    float: left;
+    margin: 1%;
+    margin-left: 4%;
+   
+}
+
+footer img{ 
+    width: 7%;
+    float: left;
+    margin: 1%;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+footer div ul{
+    padding-left:20px ;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.autor{
+     border: black;
+     background-color: black;
+     color: white;
+     width: 100%;
+     height: 50px;
+     margin: 0%;
+     text-align: center;
+     padding: 20px;
+}
+
+@media (min-width: 600px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 80% 20%;
+        grid-template-rows: 150px 50px 1fr 180px;
+        grid-template-areas: "my-header my-header" "my-nav my-nav" "my-section my-aside" "my-footer my-footer ";
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1000px){
+    .grid{
+        display: grid;
+        grid-template-columns: 70% 30%;
+        grid-template-rows: 150px 50px 1fr 180px;
+        grid-template-areas: "my-header my-header" "my-nav my-nav" "my-section my-aside" "my-footer my-footer ";
+    }
+}

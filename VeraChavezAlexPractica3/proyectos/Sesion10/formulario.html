@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta Cinematográfica</title>
+</head>
+<body>
+    <div id="contenedor">
+        <h2 style="text-align: center;">Encuesta de cine: Nominadas al Oscar 2022</h2>
+        <form id="formulario-1" name="formulario-1" method="post" action="data.php">
+            <fieldset id="datos-personales" style="margin-bottom: 10px;">
+                <legend>Datos Personales</legend>
+                
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" style="margin-bottom: 10px;"> <br>
+                
+                <label for="DNI">DNI</label>
+                <input type="text" name="dni" id="dni" maxlength="9" style="margin-bottom: 10px;"> <br>
+
+                <label for="edad">Edad</label>
+                <input type="text" name="edad" id="edad" size="2" maxlength="2" style="margin-bottom: 10px;"> <br>
+
+                <label for="sexo">Sexo</label>
+                <select name="sexo">
+                    <option name="vacio" selected></option>
+                    <option name="Masculino">Masculino</option>
+                    <option name="Femenino">Femenino</option>
+                    <option name="Personalizado">Personalizado</option>
+                </select>
+            </fieldset>
+
+            <fieldset id="mejor pelicula" style="margin-bottom: 10px;">
+                <legend>Mejor película</legend>
+                <input type="radio" name="pelicula" value="11"> El poder del perro<br>
+                <input type="radio" name="pelicula" value="22"> Dune <br>
+                <input type="radio" name="pelicula" value="33"> Belfast <br>
+
+            </fieldset>
+
+            <fieldset id="peliculas" style="margin-bottom: 10px;">
+
+                <legend>Selecciona las películas que no hayas visto</legend>
+                <input type="checkbox" name="no-vista" value="11"> Maze Runner <br>
+                <input type="checkbox" name="no-vista"> Hasta el último hombre <br>
+                <input type="checkbox" name="no-vista"> El francotirador <br>
+                <input type="checkbox" name="no-vista"> Atentando en París <br>
+                <input type="checkbox" name="no-vista"> El lobo de Wall Street <br>
+            </fieldset>
+
+            <fieldset id="grupo-argumento">
+                <legend>Argumento de tu película favorita</legend>
+                <textarea id="argumento" name="argumento" rows="14" cols="50"></textarea>
+            </fieldset>
+            <br>
+            <input type="reset" value="Borrar Formulario">
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
