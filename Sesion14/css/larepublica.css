@@ -1,0 +1,56 @@
+.tamaño{
+    height: 60px;
+    width: 100px;
+}
+
+body{
+    margin: 0px;
+}
+
+header{
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+
+nav ul li{
+    list-style: none;
+    float: left;
+    width: 180px;
+    margin: 0px;
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+
+h5{
+    float: left;
+}
+
+
+#subtitulo{
+    padding: 5px;
+    float: left;
+}
+#caja1{
+    background-color:white;
+    padding: 50px;
+}
+
+#caja2{
+    background-color:blue;
+    width: 450px;
+    height: 200px;
+    float: right;
+}
+
+#caja3{
+    margin-bottom: 0px;
+}
+
+#caja4{
+    background-color: red;
+    width: 200px;
+    float: right;
+    margin: 0px;
+}

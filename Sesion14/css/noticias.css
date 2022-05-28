@@ -1,0 +1,28 @@
+.tamaño{
+    height: 60px;
+    width: 100px;
+}
+
+#caja1{
+    background-color:white ;
+}
+
+#caja2{
+    background-color:blue;
+    width: 450px;
+    height: 200px;
+    float: right;
+}
+
+#caja3{
+    background-color: green;
+    margin-bottom: 0px;
+    clear: right;
+}
+
+#caja4{
+    background-color: yellow;
+    width: 200px;
+    float: right;
+    margin: 0px;
+}

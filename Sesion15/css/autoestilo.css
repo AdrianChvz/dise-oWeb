@@ -1,0 +1,79 @@
+body{
+    margin: 0px auto;
+}
+.grid{
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 50px 1fr 100px 50px;
+    grid-template-areas: "my-header" "my-nav" "my-section"
+    "my-aside" "my-footer";
+}
+
+header{
+    background-color: blue;
+    grid-area: my-header;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+nav{
+    background-color: darkblue;
+    grid-area: my-nav;
+    color: white;
+}
+
+section{
+    background-color: rgb(103, 103, 250);
+    grid-area: my-section;
+}
+
+aside{
+    background-color: rgb(68, 68, 155);
+    grid-area: my-aside;
+    color: white;
+}
+
+footer{
+    background-color: rgb(15, 15, 88);
+    grid-area: my-footer;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+#ls{
+    list-style: none;
+}
+
+#texto{
+    background-color: rgb(58, 58, 236);
+    padding: 15px 15px 15px 15px;
+    margin: 10px 10px 10px 10px;
+    color: white;
+}
+
+h4{
+    text-align: center;
+}
+
+
+@media (min-width:600px) and (max-width:1000px){
+    .grid{
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 150px 50px 1fr 100px;
+        grid-template-areas: "my-header my-header"
+        "my-nav my-nav" "my-aside my-section"  
+        "my-footer my-footer";
+    }
+}
+
+@media (min-width:1001px){
+    .grid{
+        grid-template-columns: 200px 1fr 200px;
+        grid-template-rows: 100px 1fr 100px;
+        grid-template-areas: "my-header my-header my-header" 
+        "my-nav my-section my-aside" "my-footer my-footer my-footer";
+    }
+}    
