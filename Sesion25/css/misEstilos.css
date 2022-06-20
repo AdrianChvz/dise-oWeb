@@ -1,0 +1,21 @@
+html, body{
+    height: 100%;
+}
+
+#cover {
+    background: #222 url(../img/veterinaria.webp) center no-repeat;
+    background-size: 100%;
+    color: black;
+    height: 100%;
+    text-align: center;
+}
+
+#cover-texto{
+    width: 100%;
+}
+
+.acerca{
+    padding: 30px;
+}
+
+
