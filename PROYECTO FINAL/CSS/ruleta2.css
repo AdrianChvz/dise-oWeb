@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #34495e;
+    background-size: cover;
+    background-position: center;
+}
+
+.mainbox{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.mainbox:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url(../IMG/flecha-izquierda.png) no repeat;
+    background-size: 5%;
+    left: 5%;
+    top: 48%;
+    transform: rotate(90deg);
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 50%;
+    border: 10px solid whitesmoke;
+    overflow: hidden;
+    transition: all ease-in-out 5s;
+    transform: rotate(90deg);
+}
+
+span{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+}
+
+.span1{
+    clip-path: polygon(0 0%, 0 50%, 50% 50%);
+    background-color: green;
+}
+.span2{
+    clip-path: polygon(0 0%, 50% 0, 50% 50%);
+    background-color: red;
+}
+.span3{
+    clip-path: polygon(50% 0, 100% 0%, 50% 50%);
+    background-color: blueviolet;
+}
+.span4{
+    clip-path: polygon(100% 0%, 100% 50%, 50% 50%);
+    background-color: blue
+}
+.span5{
+    clip-path: polygon(100% 50%, 100% 100%, 50% 50%);
+    background-color: coral;
+}
+.span6{
+    clip-path: polygon(100% 100%, 50% 100%, 50% 50%);
+    background-color: cornflowerblue;
+}
+.span7{
+    clip-path: polygon(0% 100%, 50% 100%, 50% 50%);
+    background-color: aquamarine;
+}
+.span8{
+    clip-path: polygon(0% 50%, 0% 100%, 50% 50%);
+    background-color: deeppink;
+}
+
+.box1 .span1 h5{
+    position: absolute;
+    top: 38%;
+    right: 63%;
+    transform: rotate(200deg);
+    text-align: center;
+}
+
+.box1 .span2 h5{
+    position: absolute;
+    top: 30%;
+    right: 50%;
+    transform: rotate(-110deg);
+    text-align: center;
+}
+
+.box1 .span3 h5{
+    position: absolute;
+    top: 32%;
+    right: 39%;
+    transform: rotate(-70deg);
+    text-align: center;
+}
+
+.box1 .span4 h5{
+    position: absolute;
+    top: 38%;
+    right: 31%;
+    transform: rotate(-30deg);
+    text-align: center;
+}
+
+.box2 .span5 h5{
+    position: absolute;
+    top: 24%;
+    right: 70%;
+    transform: rotate(200deg);
+    text-align: center;
+}

@@ -1,0 +1,98 @@
+.text-white{
+  text-decoration: none;
+}
+
+#contenedor{
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #12947F;
+  color: white;
+}
+
+nav{
+  background-color: #12947F; 
+  text-align: right;
+}
+
+nav a{
+  color: rgb(0, 0, 0);
+  padding: 12px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+nav a:hover{
+  background-color: #F17808;
+  color: #1d285e;
+  border-end-end-radius: 70%;
+}
+
+
+.productos{
+  margin: 11px;
+}
+
+#foto{
+  float: left;
+  margin: 10px;
+  padding: 10px;  
+}
+
+#foto img{
+  height: 150px;
+  width: 150px;
+}
+
+#inicio{
+  margin: 10px;
+  padding: 10px;
+  float: right;
+  height: auto;
+  width: auto;
+}
+
+aside h2{
+  margin-top: 10px;
+}
+
+.carousel-inner{
+  width: auto;
+  margin-top: 20px;
+  
+}
+
+#formulario{
+  margin: 15px;
+}
+
+#items{
+  margin: 12px;
+}
+
+.iconcarrito{
+  width: 200px;
+  height: 200px;
+  float: right;
+}
+
+#titulo{
+  font-size: 9vw;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.text-white{
+  text-decoration: none;
+}
+
+#carrusel{
+  margin-top: -28%;
+}
+
+#cover2{
+  margin-top: -33%;
+  margin-left: 3%;
+  margin-bottom: 5%;
+}

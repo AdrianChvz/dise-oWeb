@@ -1,0 +1,221 @@
+.buscar{
+    margin-right: 5%;
+}
+.carrito{
+    margin-right: 3%;
+}
+
+.usuario{
+    margin-right: 2%;
+}
+
+#funciones{
+
+    margin-left: 50%;
+    padding-right: 15%;
+    font-weight: bold;
+}
+
+#cabecera{
+    background-color: azure;
+}
+.text-white{
+    text-decoration: none;
+
+}
+
+.dropdown-menu{
+    margin-left: 88%;
+    
+}
+body{
+    margin-bottom: 0%;
+}
+.section{
+    position: relative;
+}
+#cuerpo{
+    margin-top: 10%;
+}
+
+
+#cuerpo .titulo,.parrafo,.celulares{
+    margin-left: 90px;
+    font-family: 'Times New Roman';
+}
+#cuerpo h1{
+    font-weight: bold;
+}
+
+#cuerpo p{
+    font-size: large;
+}
+
+#cuerpo img{
+    align-items: center;
+}
+.servicio1{
+    text-decoration: none;
+
+}
+
+.conocenos{
+    text-decoration: none;
+    background-color: #3c3c3c;
+    padding:2%;
+    border-radius: 5px;
+    margin-left: 90px;
+    color: white;
+    font-weight: bold;
+}
+
+.conocenos:hover{
+    color: white;
+    background-color: #666666;
+}
+
+.celulares{
+    margin-top: 30px;
+}
+
+.logo_volante{
+   margin-left: 15%;
+}
+
+#tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100hv;
+    margin-top: 50px;
+}
+#cuerpo #linkservicio{
+    margin-top: 5px;
+    text-align: center;
+}
+.card{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin-left: 3px;
+    margin-bottom: 5%;
+    margin-left: 3%;
+}
+.card2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-left: 3%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+}
+
+
+
+.card:hover{
+    background-color: #94CECA;
+}
+.card .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: .5s; 
+}
+
+.card .front{
+    transform: perspective(600px) rotate(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.card .front img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .front h3{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgba(0, 0, 0, .4);
+    text-align: center;
+}
+
+.card .back{
+    transform: perspective(600px) rotateY(180deg);
+    background: rgb(3, 35, 54);
+    padding: 15px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+
+.card .back .link{
+    border-top: solid 1px #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+}
+
+.card .back .link a{
+    text-decoration: none;
+    color: #f3f3f3;
+    background-color: #1f53c5;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+}
+.card .back .link a:hover{
+    color: #000;
+}
+
+.card .back h3{
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.card .back p{
+    letter-spacing: 1px;
+}
+
+.card:hover .front{
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back{
+    transform: perspective(600px) rotateY(360deg);
+}
+.elegirnos{
+    text-align: center;
+    font-weight: bold;
+}
+.parte .row{
+    margin-left: 25%;
+}
+
+.parte .row img{
+    margin-top:20% ;
+}
+.parte .row p{
+    color: #1f53c5;
+    margin-left: -30px;
+}
+#divisiones{
+    margin: 0%;
+    float:left;
+}
+#lanza{
+    margin: 40px;
+}

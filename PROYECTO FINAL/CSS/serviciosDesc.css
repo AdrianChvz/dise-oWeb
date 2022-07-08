@@ -1,0 +1,33 @@
+#carouselExampleIndicators{
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+#alCarrito{
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 5px;
+    margin-top: 30%;
+    margin-left: 20%;
+    justify-content: center;
+}
+
+#alCarrito:hover{
+
+    background-color: gray;
+    
+}
+
+select{
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: azure;
+    padding-left: 2px;
+    padding-right: 2px;
+
+}

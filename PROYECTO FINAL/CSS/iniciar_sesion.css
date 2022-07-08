@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cadetblue;
+}
+.registro{
+    width: 400px;
+    background-color: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Calibri';
+    color: white;
+}
+
+.registro h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.controles{
+    width: 100%;
+    background-color: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'Calibri';
+    font-size: 18px;
+    color: white;
+}
+
+.registro p{
+    height: 40px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 40px;
+}
+
+.registro a{
+    color: white;
+    text-decoration: none;
+}
+
+.registro a:hover{
+    color: black;
+    
+}
+
+.check{
+    margin-left: -14px;
+    
+}
+
+.registro .boton{
+    width: 100%;
+    background-color: #1f53c5;
+    border: none;
+    padding: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 28%;
+}
+
+.boton{
+    margin-top: 15%;
+}
+.registro .boton2{
+    width: 100%;
+    background-color: #1f53c5;
+    border: none;
+    padding: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 30%;
+    
+    
+}
+
+.boton_facebook{
+    
+   margin-right: 10px;
+}
+
+.registro .boton_facebook:hover{
+    color: white;
+    text-decoration: none;
+    background-color: #24303c;
+}
+
+.registro .boton_facebook{
+    color: black;
+}
+
+.boton_google{
+    margin-left: 10px;
+}
+
+.registro .boton_google:hover{
+    color: white;
+    text-decoration: none;
+    background-color: #24303c;
+}
+
+.registro .boton_google{
+    color: black;
+}
